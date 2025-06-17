@@ -1,7 +1,7 @@
 
 ##############################################################################
 {
-    'name': ' New SAR Icon',
+    'name': 'Riyal currency in reports',
     'version': '16.0',
     'category': 'Accounting',
      'author': "Elmale7",
