@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'sr_symbol';
+    src:  url('../fonts/sr.eot?hc2hgv');
+    src:  url('../fonts/sr.eot?hc2hgv#iefix') format('embedded-opentype'),
+      url('../fonts/sr.ttf?hc2hgv') format('truetype'),
+      url('../fonts/sr.woff?hc2hgv') format('woff'),
+      url('../fonts/sr.svg?hc2hgv#sr') format('svg');
+
+  }
+
+
+  .icon-sr:before{
+    content: "\e900";
+    color: rgb(36, 36, 36);
+  }
+
+
+*:not(.fa):not(.oi):not(.tp-header-icon):not(.btn-close):not(.dr_icon):not(.dropdown-toggle):not(.dri){
+    font-family: 'sr_symbol' , -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif
+ !important;
+    font-style: normal !important;
+}
+
+.o_ActivityMenuView_counter.badge,
+.o_MessagingMenu_counter.badge {
+    font-size: 10px !important;
+    min-width: 16px !important;
+    height: 16px !important;
+    line-height: 16px !important;    /* محاذاة الرقم داخل الدائرة */
+    padding: 0 4px !important;
+    border-radius: 8px !important;   /* جعل الشكل دائري */
+}
